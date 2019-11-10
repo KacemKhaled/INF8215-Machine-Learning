@@ -1,0 +1,94 @@
+Note 1: If the number of moves is more than 50, we put -1 instead!
+Note 2: Please be patient while the games are being played, and no worries about infinite loops, they are handled!
+
+
+Game : 1 / 10
+[==================] 100.0%
+          random  pessimistic  optimistic
+9 moves       19           33          -1
+16 moves      31           31          31
+14 moves      27           31          -1
+
+Game : 2 / 10
+[==================] 100.0%
+          random  pessimistic  optimistic
+9 moves       17           35          37
+16 moves      31           31          43
+14 moves      27           29          -1
+
+Game : 3 / 10
+[==================] 100.0%
+          random  pessimistic  optimistic
+9 moves       21           31          19
+16 moves      31           39          37
+14 moves      27           31          31
+
+Game : 4 / 10
+[==================] 100.0%
+          random  pessimistic  optimistic
+9 moves       21           27          39
+16 moves      31           35          37
+14 moves      27           27          31
+
+Game : 5 / 10
+[==================] 100.0%
+          random  pessimistic  optimistic
+9 moves       17           21          27
+16 moves      31           31          31
+14 moves      -1           27          31
+
+Game : 6 / 10
+[==================] 100.0%
+          random  pessimistic  optimistic
+9 moves       17           25          21
+16 moves      31           35          33
+14 moves      27           27          -1
+
+Game : 7 / 10
+[==================] 100.0%
+          random  pessimistic  optimistic
+9 moves       21           23          21
+16 moves      31           35          31
+14 moves      27           27          -1
+
+Game : 8 / 10
+[==================] 100.0%
+          random  pessimistic  optimistic
+9 moves       23           27          21
+16 moves      31           35          31
+14 moves      27           27          29
+
+Game : 9 / 10
+[==================] 100.0%
+          random  pessimistic  optimistic
+9 moves       21           25          37
+16 moves      33           35          39
+14 moves      27           27          -1
+
+Game : 10 / 10
+[==================] 100.0%
+          random  pessimistic  optimistic
+9 moves       17           31          33
+16 moves      35           31          31
+14 moves      29           27          29
+
+
+Final results of all games : (Average + Min + Max)
+
+Average number of moves:
+          random  pessimistic  optimistic
+9 moves    19.40         27.8       28.33
+16 moves   31.60         33.8       34.40
+14 moves   27.22         28.0       30.20
+
+Minimum number of moves:
+          random  pessimistic  optimistic
+9 moves       17           21          19
+16 moves      31           31          31
+14 moves      27           27          29
+
+Maximum number of moves:
+          random  pessimistic  optimistic
+9 moves       23           35          39
+16 moves      35           39          43
+14 moves      29           31          31

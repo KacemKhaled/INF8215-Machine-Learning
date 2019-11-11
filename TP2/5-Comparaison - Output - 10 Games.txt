@@ -1,0 +1,170 @@
+Note 1: If the number of moves is more than 50, we put -1 instead!
+Note 2: Please be patient while the games are being played, and no worries about infinite loops, they are handled!
+
+
+Game : 1 / 10
+[========================] 100.0%
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   23                             17   
+16 moves                  37                             35   
+14 moves                  27                             29   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  29                            17  
+16 moves                 39                            31  
+14 moves                 -1                            29  
+
+Game : 2 / 10
+[========================] 100.0%
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   25                             19   
+16 moves                  43                             35   
+14 moves                  45                             27   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  21                            21  
+16 moves                 31                            35  
+14 moves                 31                            27  
+
+Game : 3 / 10
+[========================] 100.0%
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   33                             17   
+16 moves                  35                             35   
+14 moves                  27                             27   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  27                            19  
+16 moves                 31                            31  
+14 moves                 39                            27  
+
+Game : 4 / 10
+[========================] 100.0%
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   21                             19   
+16 moves                  43                             39   
+14 moves                  27                             29   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  25                            19  
+16 moves                 37                            31  
+14 moves                 27                            27  
+
+Game : 5 / 10
+[========================] 100.0%
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   25                             17   
+16 moves                  47                             39   
+14 moves                  43                             29   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  21                            21  
+16 moves                 31                            39  
+14 moves                 31                            27  
+
+Game : 6 / 10
+[========================] 100.0%
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   35                             17   
+16 moves                  47                             35   
+14 moves                  27                             29   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  25                            19  
+16 moves                 31                            31  
+14 moves                 -1                            31  
+
+Game : 7 / 10
+[========================] 100.0%
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   25                             17   
+16 moves                  49                             39   
+14 moves                  27                             27   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  31                            21  
+16 moves                 35                            31  
+14 moves                 33                            27  
+
+Game : 8 / 10
+[========================] 100.0%
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   27                             19   
+16 moves                  35                             39   
+14 moves                  31                             29   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  29                            17  
+16 moves                 35                            35  
+14 moves                 -1                            31  
+
+Game : 9 / 10
+[========================] 100.0%
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   21                             17   
+16 moves                  47                             39   
+14 moves                  27                             27   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  17                            17  
+16 moves                 35                            39  
+14 moves                 -1                            27  
+
+Game : 10 / 10
+[========================] 100.0%
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   47                             17   
+16 moves                  41                             35   
+14 moves                  37                             27   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  17                            29  
+16 moves                 35                            35  
+14 moves                 31                            37  
+
+
+Final results of all games : (Average + Min + Max)
+
+Average number of moves:
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                 28.2                           17.6   
+16 moves                42.4                           37.0   
+14 moves                31.8                           28.0   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                24.2                          20.0  
+16 moves               34.0                          33.8  
+14 moves               32.0                          29.0  
+
+Minimum number of moves:
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   21                             17   
+16 moves                  35                             35   
+14 moves                  27                             27   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  17                            17  
+16 moves                 31                            31  
+14 moves                 27                            27  
+
+Maximum number of moves:
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                   47                             19   
+16 moves                  49                             39   
+14 moves                  45                             29   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                  31                            29  
+16 moves                 39                            39  
+14 moves                 39                            37  
+
+Number of Wins with threshold of win is the average value of number of moves in each game
+          minimax Vs optimal  expectimax neutral Vs optimal  \
+9 moves                    7                              7   
+16 moves                   4                              5   
+14 moves                   7                              5   
+
+          minimax Vs random  expectimax neutral Vs random  
+9 moves                   4                             6  
+16 moves                  4                             5  
+14 moves                  4                             7 
